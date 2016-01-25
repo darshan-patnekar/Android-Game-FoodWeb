@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.IUB_P565_Group1.FoodWeb.Help">
+
+    TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to Play?\n\no Deer will dodge obstacles coming in its way.\n
+o Deer will gain points by dodging obstacles, consuming eatable obstacles. Water jar would have extra points: x3.\n
+o It will also gain additional multipliers by crossing particular level and also with time.\n
+o Small Icon with the lions image would turn the deer into lion. Similarly, man’s face will turn deer into man. If another power comes while in power mode , it can take that power .The new power would replace the current power , irrespective if it’s the same or not.\n
+o The frequency of obstacles will increase with level.\n
+o Consumables for characters - 1) Deer - Grass and Cherry   2) Lion - Grass, Cherry, Buffalo and Zebra  3) Man  - Grass, Cherry, Buffalo, Dinosaur and Zebra\n
+o Obstacles for characters - 1) Deer - Rock, Buffalo, Zebra, Dinosaur and Pits 2) Lion - Rock, Dinosaur and Pits 3) Man - Pits
+o Level will increase the multiplier. (Second level will have Multiplier x 2, etc.).\n
+o Level will increase with time.\n
+o The player will have 3 lives. The player resume at the same level after dying.\n
+o All obstacles, when encountered for the first time, it will die.\n"
+        android:id="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/buttonMainMenu" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:id="@+id/buttonMainMenu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
